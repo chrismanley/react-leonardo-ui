@@ -19,6 +19,7 @@ exports[`List passes props correctly 1`] = `
   <li
     className="lui-list__item"
     data-x="x"
+    disabled={undefined}
     onClick={[Function]}
     title="Item title"
   >
@@ -33,6 +34,7 @@ exports[`List with item custom content renders correctly 1`] = `
 >
   <li
     className="lui-list__item"
+    disabled={undefined}
   >
     <div
       className="lui-list__aside"
@@ -59,16 +61,19 @@ exports[`List with items renders correctly 1`] = `
   </li>
   <li
     className="lui-list__item"
+    disabled={undefined}
   >
     Item 1
   </li>
   <li
     className="lui-list__item lui-active"
+    disabled={undefined}
   >
     Item 1
   </li>
   <li
     className="lui-list__item lui-disabled"
+    disabled={true}
   >
     Item 1
   </li>

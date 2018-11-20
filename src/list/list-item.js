@@ -13,7 +13,7 @@ const ListItem = ({
     states: { active, disabled },
   });
   return (
-    <li className={finalClassName} {...extraProps}>
+    <li className={finalClassName} disabled={disabled} {...extraProps}>
       {children}
     </li>
   );
